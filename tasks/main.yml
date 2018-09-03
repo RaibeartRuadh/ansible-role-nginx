@@ -1,0 +1,11 @@
+---
+- name: Install EPEL
+  become: true
+  yum:
+    name: epel-release
+
+- name: Install nginx
+  become: true
+  yum:
+    name: nginx
+  notify: restart nginx
