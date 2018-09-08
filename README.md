@@ -15,7 +15,8 @@ Example Playbook
     - hosts: servers
       roles:
          - role: nginx
-           nginx_port: 8080
+           nginx_http_default_server_port: 8080
+           nginx_http_default_server_root: "/usr/share/nginx/html"
 
 Test Role
 ---------
