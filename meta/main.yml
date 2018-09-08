@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: nginx
   author: Sedov Andrey
   description: Настройка web сервера nginx
   company: ""
