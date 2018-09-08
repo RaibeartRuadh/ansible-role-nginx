@@ -14,7 +14,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: nginx
+         - role: sedovandrew.nginx
            nginx_http_default_server_port: 8080
            nginx_http_default_server_root: "/usr/share/nginx/html"
 
